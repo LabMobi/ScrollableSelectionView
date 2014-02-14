@@ -4,9 +4,9 @@ ScrollableSelectionView
 Description
 -----------
 
-ScrollSelectionView is UI element for iOS, that enables user to select one item from scroll view by scrolling left/right or tapping on item. 
+ScrollSelectionView is a UI element for iOS, that enables the user to select one item from the scroll view by scrolling left/right or tapping on item. 
 
-You can give ScrollSelectionView an array of UIViews and it will place them into scroll view in same order. The item in the middle of scroll view is always counted as selected. User can change selected item by scrolling left and right or tapping on item. When user stops scrolling, scroll view will correct its position so, that selected item is in the middle.
+ScrollSelectionView takes an array of UIViews and places them into the scroll view preserving the order. The selected item is always in the middle of the scroll view. User can change selected item by scrolling left and right or tapping on item. When user stops scrolling, scroll view will correct its position so, that the selected item is in the middle.
 
 UI views in scroll view can have different height and width. Scroll view will adjust its height so, that it matches highest item.
 
@@ -38,7 +38,7 @@ Get selected view
 Additional functionality
 ------------------------
 
-To make your scroll view even cooler, you might want to modify selected UIView. For example, you can change UIView background color or text color if you added UILabels. 
+To make your scroll view even cooler, you might want to modify selected UIView. For example, you can change UIView background colour or text colour if you added UILabels to scroll view. 
 
 Set ScrollSelectionViewDelegate with <i>- (void) setScrollViewDelegate:(NSObject<ScrollSelectionViewDelegate>*)delegate</i>
 
